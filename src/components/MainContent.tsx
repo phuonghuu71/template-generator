@@ -5,12 +5,12 @@ import { Input, Typography, Radio, RadioChangeEvent } from "antd";
 import MultiInput from "./MultiInput";
 import '@ant-design/v5-patch-for-react-19';
 
-const { Title, Paragraph } = Typography;
+const { Title } = Typography;
 const { TextArea } = Input;
 
 function MainContent() {
   const [title, setTitle] = useState<string>('');
-  const [status, setStatus] = useState<Number>(1);
+  const [status, setStatus] = useState<number>(1);
   const [notes, setNotes] = useState<string>('');
   const [precondition, setPrecondition] = useState<string[]>([]);
   const [testData, setTestData] = useState<string[]>([]);

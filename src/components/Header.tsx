@@ -3,7 +3,7 @@
 import React from "react";
 import { Typography } from "antd";
 
-const { Title, Paragraph, Text } = Typography;
+const { Title } = Typography;
 
 function Header() {
   return <header className="shrink px-6 pt-3 bg-white shadow-sm border-gray-300 border-b-2">
